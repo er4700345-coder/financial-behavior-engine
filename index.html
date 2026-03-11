@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Financial Behavior Engine</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Financial Behavior Intelligence Engine 💰</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="dataset" accept=".csv" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if results %}
+        <h2>Loan Risk & Trust Scores</h2>
+        <pre>{{ results }}</pre>
+
+        <h2>Liquidity Shock Clusters</h2>
+        <pre>{{ clusters }}</pre>
+    {% endif %}
+</div>
+</body>
+</html>
