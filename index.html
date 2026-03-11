@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Financial Behavior Engine</title>
+<title>Financial Behavior Intelligence Engine</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 <div class="container">
+    <img src="{{ url_for('static', filename='dashboard-animations.gif') }}" class="dashboard-gif">
     <h1>Financial Behavior Intelligence Engine 💰</h1>
+
     <form method="POST" enctype="multipart/form-data">
         <input type="file" name="dataset" accept=".csv" required>
         <button type="submit">Analyze</button>
@@ -19,6 +21,9 @@
 
         <h2>Liquidity Shock Clusters</h2>
         <pre>{{ clusters }}</pre>
+
+        <h2>AI Lie Detector / Anomaly Detection</h2>
+        <pre>{{ anomalies.to_string(index=False) }}</pre>
     {% endif %}
 </div>
 </body>
