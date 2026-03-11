@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Data Science](https://img.shields.io/badge/Data%20Science-Pandas-orange)](https://pandas.pydata.org/)
 [![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-red)](https://scikit-learn.org/)
+[![AI](https://img.shields.io/badge/AI-Python--ML-blueviolet)](https://scikit-learn.org/)
+[![Isolation Forest](https://img.shields.io/badge/IsolationForest-ML-yellowgreen)](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
 
 ---
 
@@ -12,13 +14,13 @@
 
 **Financial Behavior Intelligence Engine** is a cutting-edge fintech system designed for **banks, loan companies, and financial institutions**.  
 
-It predicts:
+It predicts and analyzes:
 
 - 💳 Loan default probability  
 - 📊 Borrower trust & repayment reliability  
 - ⚡ Liquidity shocks & clusters  
 - 🧠 Financial stress detection  
-- Optional AI-based verification for borrower declarations  
+- 🤖 AI-driven anomaly detection and potential lie identification  
 
 **Institution-grade UI** with dark mode, sleek visuals, and dashboard style inspired by BlackRock, Vanguard, and Bloomberg.
 
@@ -31,6 +33,7 @@ It predicts:
 | `Data Analyzer` | Cleans and preprocesses customer financial data |
 | `Risk Model` | Calculates Loan Risk Score & Trust Score |
 | `Liquidity Monitor` | Detects clusters of financial stress |
+| `AI Lie Detector` | Detects anomalies in declared income, expenses, and debt |
 | `Dashboard` | Interactive web UI for analysis & reporting |
 
 ---
