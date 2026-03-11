@@ -1,4 +1,4 @@
-# 💼 Financial Behavior Intelligence Engine
+# 💼 Financial Behavior Intelligence Engine (All-in-One)
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.3.4-black?logo=flask)](https://flask.palletsprojects.com/)
@@ -12,44 +12,20 @@
 
 ## Overview
 
-**Financial Behavior Intelligence Engine** is a cutting-edge fintech system designed for **banks, loan companies, and financial institutions**.  
+**Financial Behavior Intelligence Engine** — next-gen fintech platform for banks, loan companies, and financial institutions.  
 
-It predicts and analyzes:
-
-- 💳 Loan default probability  
-- 📊 Borrower trust & repayment reliability  
-- ⚡ Liquidity shocks & clusters  
-- 🧠 Financial stress detection  
-- 🤖 AI-driven anomaly detection and potential lie identification  
-
-**Institution-grade UI** with dark mode, sleek visuals, and dashboard style inspired by BlackRock, Vanguard, and Bloomberg.
+- 💳 Predicts **loan risk** and **trust scores**  
+- ⚡ Detects **liquidity shock clusters**  
+- 🤖 Flags **anomalies and potential misrepresentations** in borrower data via AI  
+- 🖤 Sleek, **dark-mode dashboard** inspired by BlackRock, Vanguard, Bloomberg  
+- ✅ All-in-one deployable file — easy to push to GitHub & Vercel  
 
 ---
 
-## Features
+## Usage
 
-| Module | Functionality |
-|--------|---------------|
-| `Data Analyzer` | Cleans and preprocesses customer financial data |
-| `Risk Model` | Calculates Loan Risk Score & Trust Score |
-| `Liquidity Monitor` | Detects clusters of financial stress |
-| `AI Lie Detector` | Detects anomalies in declared income, expenses, and debt |
-| `Dashboard` | Interactive web UI for analysis & reporting |
-
----
-
-## Demo
-
-![Dashboard Preview](static/dashboard-animations.gif)
-
----
-
-## Installation
+1. Clone repo:
 
 ```bash
 git clone https://github.com/er4700345-coder/financial-behavior-engine.git
 cd financial-behavior-engine
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python dashboard/app.py
